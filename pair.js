@@ -487,9 +487,9 @@ function setupCommandHandlers(socket, number) {
                     const minutes = Math.floor((uptime % 3600) / 60);
                     const seconds = Math.floor(uptime % 60);
 
-                    const title = '𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐀𝐋𝐈𝐕𝐄 𝐍𝐎𝐖 😾❤*';
-                    const content = `*ᴍɪɴɪ ʙᴏᴛ ʙʏ ʜᴀᴄᴋᴇʀ ʏᴏᴠɪ*\n` +                                   `*ʙᴏᴛ ᴏᴡɴᴇʀ :- ʜᴀᴄᴋᴇʀ ʏᴏᴠɪ*\n` +
-                                `*ʙᴏᴛ ɴᴀᴍᴇ :- ʏᴏᴠɪ ᴍɪɴɪ ʙᴏᴛ ᴠ1*\n` +
+                    const title = '𝐀𝐑𝐒𝐋𝐀𝐍 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐀𝐋𝐈𝐕𝐄 𝐍𝐎𝐖 😾❤*';
+                    const content = `*𝐀𝐫𝐬𝐥𝐚𝐧-𝐌𝐢𝐧𝐢 𝐛𝐨𝐭 𝐛𝐲 𝐀𝐫𝐬𝐥𝐚𝐧-𝐌𝐃*\n` +                                   `*ʙᴏᴛ ᴏᴡɴᴇʀ :- 𝘼𝙧𝙨𝙡𝙖𝙣𝙈𝘿 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡*\n` +
+                                `*ʙᴏᴛ ɴᴀᴍᴇ :- 𝐀𝐫𝐬𝐥𝐚𝐧-𝐌𝐢𝐧𝐢-𝐁𝐨𝐭*\n` +
                                    `*ʙᴏᴛ ᴡᴇʙ ꜱɪᴛᴇ*\n` +
                                    `> *ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ*`;
                     const footer = config.BOT_FOOTER;
@@ -523,8 +523,8 @@ case 'menu': {
     const title = '𝐀𝐑𝐒𝐋𝐀𝐍 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐌𝐄𝐍𝐔 😾❤*';
     const text = `╭──➢\n` +
         `│ \`S T A T U S\`\n` +
-        `│ *⦁ ʙᴏᴛ ɴᴀᴍᴇ*: ʏᴏᴠɪ ᴍɪɴɪ ʙᴏᴛ\n` +
-        `│ *⦁ ʙᴏᴛ ᴏᴡɴᴇʀ*: ʜᴀᴄᴋᴇʀ ʏᴏᴠɪ\n` +
+        `│ *⦁ ʙᴏᴛ ɴᴀᴍᴇ*: 𝐀𝐫𝐬𝐥𝐚𝐧-𝐌𝐢𝐧𝐢-𝐁𝐨𝐭\n` +
+        `│ *⦁ ʙᴏᴛ ᴏᴡɴᴇʀ*: 𝘼𝙧𝙨𝙡𝙖𝙣𝙈𝘿 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡\n` +
         `│ *⦁ ᴠᴇʀꜱɪᴏɴ*: 0.0001+\n` +
         `│ *⦁ ᴘʟᴀᴛꜰᴏᴇᴍ*: Heroku\n` +
         `│ *⦁ ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s\n` +
@@ -1044,7 +1044,7 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.IMAGE_PATH },
                         caption: formatMessage(
-                            '*kk*',
+                            '*𝐀𝐫𝐬𝐥𝐚𝐧-𝐌𝐢𝐧𝐢-𝐁𝐨𝐭*',
                             `✅ Successfully connected!\n\n🔢 Number: ${sanitizedNumber}\n🍁 Channel: ${config.NEWSLETTER_JID ? 'Followed' : 'Not followed'}\n\n📋 Available Category:\n📌${config.PREFIX}alive - Show bot status\n📌${config.PREFIX}menu - Show bot command\n📌${config.PREFIX}song - Downlode Songs\n📌${config.PREFIX}video - Download Video\n📌${config.PREFIX}pair - Deploy Mini Bot\n📌${config.PREFIX}vv - Anti view one`,
                             'ttt'
                         )
